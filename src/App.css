@@ -1,0 +1,57 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.ant-layout .ant-layout-header {
+  color: #832729;
+  background: #f2e9e9;
+  height: fit-content;
+  line-height: 49px;
+}
+
+.ant-layout .ant-layout-footer {
+  color: #832729;
+  background: #f2e9e9;
+  padding: 12px 50px;
+}
+
+.antd-header-fix {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #832729;
+}
+
+.antd-icons-margin {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.antd-select-fullwidth {
+  width: 100%;
+}
+
+.card-desc-color {
+  color: darkslategray;
+}
+
+.antd-card-margin {
+  margin: 10px;
+}
+.antd-card-height {
+  height: 270px;
+}
+
+.antd-col-text-align {
+  text-align: center;
+}
