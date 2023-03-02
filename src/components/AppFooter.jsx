@@ -24,10 +24,10 @@ const AppFooter = () => {
       <Row gutter={16}>
         <Col {...colProps}>
           <h4> About Us</h4>
-          <p>
+          <h6>
             We have the largest selection of sparkling diamond and gemstone
             necklace, rings, bracelets and earrings.
-          </p>
+          </h6>
         </Col>
         <Col {...colProps}>
           <h4> Customer Service</h4>

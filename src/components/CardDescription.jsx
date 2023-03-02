@@ -3,9 +3,9 @@ import React from "react";
 const CardDescription = ({ content }) => {
   return (
     <span className="card-desc-color">
-      {Intl.NumberFormat("en-US", {
+      {Intl.NumberFormat("en-IN", {
         style: "currency",
-        currency: "USD",
+        currency: "INR",
       }).format(content.price)}
       <br />
       {content["categories"].join(" | ")}
